@@ -85,7 +85,6 @@ h2{font-family:var(--serif);font-size:clamp(1.8rem,3vw,2.6rem);font-weight:700;l
 .inclus-item{font-size:.82rem;color:rgba(245,242,237,.55);display:flex;align-items:center;gap:.7rem}
 .inclus-item::before{content:'✓';color:var(--or);font-size:.75rem;flex-shrink:0}
 
-/* NOTICE LANGUE */
 .langue-notice{background:rgba(201,169,110,.06);border:1px solid rgba(201,169,110,.2);border-left:3px solid var(--or);border-radius:3px;padding:1.2rem 1.6rem;margin-top:1.5rem;display:flex;gap:1rem;align-items:flex-start}
 .langue-notice-icon{font-size:1.1rem;flex-shrink:0;margin-top:.05rem}
 .langue-notice-text{}
@@ -116,19 +115,13 @@ h2{font-family:var(--serif);font-size:clamp(1.8rem,3vw,2.6rem);font-weight:700;l
 .testi-av{width:36px;height:36px;border-radius:50%;background:rgba(201,169,110,.15);border:1px solid rgba(201,169,110,.3);display:flex;align-items:center;justify-content:center;font-size:.68rem;color:var(--or);font-weight:500;letter-spacing:.05em;flex-shrink:0}
 .testi-name{font-weight:500;font-size:.85rem}
 .testi-role{font-size:.75rem;color:rgba(245,242,237,.38)}
+.testi-cta{background:rgba(245,242,237,.03);border:1px dashed rgba(201,169,110,.25);border-radius:3px;padding:2rem;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:.8rem}
+.testi-cta-title{font-family:var(--serif);font-size:1rem;color:var(--or);font-style:italic}
+.testi-cta-desc{font-size:.8rem;color:rgba(245,242,237,.42);line-height:1.6}
 
 .video-section{background:var(--noir3)}
 .video-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:3rem}
-.video-placeholder{aspect-ratio:9/16;background:rgba(245,242,237,.03);border:1px solid rgba(245,242,237,.08);border-radius:4px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1rem;transition:all .3s;position:relative;overflow:hidden}
-.video-placeholder::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(201,169,110,.04) 0%,transparent 60%)}
-.video-placeholder:hover{border-color:rgba(201,169,110,.25);background:rgba(201,169,110,.04)}
-.play-icon{width:56px;height:56px;border-radius:50%;border:2px solid rgba(201,169,110,.4);display:flex;align-items:center;justify-content:center;transition:all .3s;position:relative;z-index:1}
-.play-icon svg{fill:var(--or);width:20px;height:20px;margin-left:4px}
-.video-placeholder:hover .play-icon{border-color:var(--or);background:rgba(201,169,110,.1)}
-.video-label{font-size:.75rem;color:rgba(245,242,237,.38);letter-spacing:.08em;text-align:center;padding:0 1.5rem;position:relative;z-index:1}
-.video-coming{font-size:.6rem;color:rgba(201,169,110,.5);letter-spacing:.15em;text-transform:uppercase;margin-top:-.5rem}
 
-/* BADGE ANGLAIS dans portfolio */
 .video-lang-badge{position:absolute;top:.8rem;right:.8rem;background:rgba(10,10,10,.85);border:1px solid rgba(201,169,110,.25);border-radius:2px;padding:.25rem .6rem;font-size:.58rem;letter-spacing:.12em;text-transform:uppercase;color:rgba(201,169,110,.7);z-index:2}
 
 .faq-section{background:var(--noir)}
@@ -190,7 +183,6 @@ footer p{font-size:.72rem;color:rgba(245,242,237,.22)}
 .portfolio-video{width:100%;aspect-ratio:9/16;border-radius:4px;border:1px solid rgba(245,242,237,.08);background:#000;display:block;transition:border-color .3s}
 .portfolio-video:hover{border-color:rgba(201,169,110,.25)}
 .video-caption{font-size:.72rem;color:rgba(245,242,237,.35);letter-spacing:.1em;text-transform:uppercase;text-align:center}
-.video-lang-badge{position:absolute;top:.8rem;right:.8rem;background:rgba(10,10,10,.85);border:1px solid rgba(201,169,110,.25);border-radius:2px;padding:.25rem .6rem;font-size:.58rem;letter-spacing:.12em;text-transform:uppercase;color:rgba(201,169,110,.7);z-index:2}
 
 .lang-switch{display:flex;align-items:center;gap:.4rem;background:rgba(245,242,237,.07);border:1px solid rgba(245,242,237,.15);border-radius:2px;padding:.4rem .9rem;font-size:.72rem!important;letter-spacing:.12em!important;color:rgba(245,242,237,.6)!important;transition:all .3s!important}
 .lang-switch:hover{background:rgba(201,169,110,.1)!important;border-color:rgba(201,169,110,.3)!important;color:var(--or)!important}
